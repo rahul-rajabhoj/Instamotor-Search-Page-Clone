@@ -1,0 +1,303 @@
+body{
+    font-size: 1.3rem;
+    font-family: cursive;
+    line-height: 1.42857;
+    color: #586167;
+    background-color: #F5F6F6;
+}
+a{
+    text-decoration: none !important ;
+}
+.navbar{
+    background-color: white !important;
+}
+#logo{
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 21px;
+    padding-right: 30px;
+    border-right: 1px #586167 solid;
+}
+
+#logo:hover{
+    color:#35D097;
+}
+
+.nav{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+#signin:hover{
+    color: #35D097;
+}
+
+.linkhover{
+   margin: 0 10px 0 10px;
+}
+
+.linkhover:hover{
+    border-bottom: 1px #35D097 solid;
+    color: #35D097 !important;
+}
+
+.backgrey{
+    background-color: #F5F6F6;
+}
+
+.freespace{
+    padding: 33px;
+}
+
+.backwhite{
+    background-color: white;
+}
+
+.freespace1{
+    padding: 10px;
+}
+
+.bigf{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.hrline{
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.pad1{
+    margin-top: 8px;
+}
+
+.pad2{
+    margin-bottom: 12px;
+}
+
+.sel1{
+    padding-right: 0px; 
+}
+
+.sel2{
+    padding-left: 0px; 
+}
+
+.btnb{
+    position: fixed;
+    margin-bottom: 0;
+}
+
+.l1{
+    color:  #a94442;
+}
+
+span{
+    color: #586167;
+}
+
+.top1{
+    margin-top: 20px;
+}
+
+.input1{
+    padding-left: 0px;
+}
+
+.form-control:focus{
+    border-color: #a94442;
+}
+
+.right1{
+   float: right;
+   border: 1px white solid;
+}
+
+.top2{
+    margin-top: 50px;
+}
+
+.heart{
+        position: absolute;
+    top: 3%;
+    right: 9%;
+    background-color: #d5d5d5 ;
+    background-size: 20px;
+    background-position: 50%;
+    height: 22px;
+    width: 22px;
+    border-radius: 4px;
+    padding: 2px 4px;
+    margin: .75rem;
+}
+
+.carimg{
+    box-sizing: border-box;
+    border-radius: 4px 4px 25px;
+    vertical-align: middle;
+    object-fit: cover;
+    border: 0;
+    width: 550px;
+    height: 250px;
+    margin-top: 10px;
+}
+.cars{
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.cars:hover{
+    background-color: white;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+.heart:hover{
+    background-color: lightcoral;
+}
+
+.verify{
+    font-size: 8px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 2%;
+    left: 8%;
+    background-color: rgba(47,185,184,0.5);
+    background-size: 100px;
+    background-position: 50%;
+    height: 17px;
+    width: 60px;
+    border-radius: 3px 0;
+    padding: 2px 1rem;
+    margin: .75rem;
+}
+@media only screen and (max-width: 768px) {
+    .carimg{width: 100%}
+}
+.ownimg{
+    position: absolute;
+    right: 9%;
+    bottom: 23%;
+    width: 48px;
+    height: 48px;
+    border: 2px solid #f5f6f6;    
+}
+
+.cartext{
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #393939;
+}
+
+.year{
+    font-weight: 700;
+    border: 1px solid #e2e4e5;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 2px;
+    display: inline-block;
+    padding-top: 0;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 12px;
+    color: #586167;
+}
+
+.carbelowtext{
+    color: #7f868a;
+    font-size: 10px !important;
+}
+
+.disabled, .previ{
+    color: #586167;
+    background-color: #fff;
+    border: 1px solid #ddd !important;
+    float: left;
+}
+
+.active{
+    background-color: #35D097;
+    border: 1px solid #ddd;
+    color: white;
+    float: left;
+}
+
+.inline{
+        padding: 0;
+        margin-top: 30px;
+}
+
+.border{
+    border: 1px solid #ddd; 
+    float: left;
+    background-color: white;
+}
+
+.pad3{
+   margin-bottom: 50px;
+}
+
+.black{
+    color :black!important;
+}
+
+.footer{
+    background-color: #EBECED;
+    border-top: 1px lightseagreen solid;
+    padding-top: 80px;
+}
+.f1{
+    border-right:  1px #7f868a solid;
+}
+
+@media only screen and (max-width: 1024px) {
+    .f1{
+        padding-bottom: 30px;
+        border-bottom:  1px #C3CCDB solid;
+        border-right: none;
+    }
+}
+
+.footer1{
+    background-color: #EBECED;
+    padding-top: 80px;
+}
+
+.btnsend{
+    border-color: #35d097;
+    background-color: #35d097;
+    color: white;
+    float: right;
+}
+
+.down{
+    background-color: white;
+    padding: 10px;
+    border: 2px #c3ccdb solid;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.input{
+    color: black;
+    font-size: 14px;
+    border: none;
+    padding-right: 10px;
+}
+
+.lownav1{
+    padding-top: 5px;
+}
+
+.lownav{
+    padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .input{
+    color: black;
+    font-size: 14px;
+    border: none;
+    padding-right: 100px;
+}
+}
